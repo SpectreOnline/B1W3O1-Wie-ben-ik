@@ -1,0 +1,73 @@
+div.maintextholder{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 45%;
+Height: 100%;
+padding-top: 3%;
+background-color: white;
+margin: auto;
+text-align: left;
+padding-left: 2%;
+opacity: 0.7;
+filter: alpha(opacity=70);
+}
+
+div.topbar{
+    
+    height: 5%;
+    padding-bottom: 5%;
+    background-color: gray;
+
+}
+
+.Heading{
+
+text-align: center;
+ 
+
+}
+
+
+body{
+margin: auto;
+background-image: url("images/achtergrond.png");
+background-repeat: no-repeat;
+
+}
+
+li{
+float: left;
+}
+
+
+ul{
+opacity: 1.0;
+filter: alpha(opacity=100);
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: grey;
+height: 5%;
+position: fixed;
+top: 0;
+overflow: hidden;
+
+}
+
+li a{
+display: block;
+padding: 10px;
+width: 50px;
+background-color: grey;
+text-decoration: none;
+text-align: center;
+color: white;
+}
+
+li a:hover{
+    background-color: lightgrey;
+}
