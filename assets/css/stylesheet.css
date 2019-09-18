@@ -28,7 +28,7 @@ body{
 margin: auto;
 background-image: url("../images/achtergrond.png");
 background-repeat: no-repeat;
-
+background-attachment: fixed;
 }
 
 li{
